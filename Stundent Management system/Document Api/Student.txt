@@ -1,0 +1,31 @@
+Students 
+
+1-Get ALL Students
+End Point : https://localhost:7096/api/Students/GetAllStudents
+Request type GET
+
+2-Get Students by StudentId
+End Point : https://localhost:7096/api/Student/GetStudent/{id}
+Request type Get
+
+3- ADD Students
+End Point : https://localhost:7096/api/Student/AddStudent
+Request type Post
+
+4- Update Students
+End Point : https://localhost:7096/api/Student/UpdateStudent/{id}
+Request type Put
+
+5- Delete Students
+End Point : https://localhost:7096/api/Student/DeleteStudent/{id}
+Request type Delete
+
+6- Student older than 20
+End Point : https://localhost:7096/api/Student/older-than-20
+Request type Get
+Sample Response: Returns a JSON array of students older than 20 years
+
+7- Student enrolled in specific course
+End Point : https://localhost:7096/api/ Students/enrolled-in-course/{courseID}
+Request type Get
+Sample Response: Returns a JSON array of students enrolled in the specified course (CourseID = 1 in this example).

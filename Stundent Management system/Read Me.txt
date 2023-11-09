@@ -1,0 +1,30 @@
+
+Before Open it I will explain about The content in Each File
+
+1- Console Appliction
+   In console application folder you will find SourceCode.cs which is the Program file.
+
+2- Controller
+   In Controller Folder you will find 2 Api's of StudentController and CourseController
+
+3- Data
+   In data folder you will find ApiDbContext which is used to link Database 
+
+4- DataBase Scripts
+   In database scripts you will find the database of create database , create tables , insert value and stored procedures of student table and course table
+
+5- Document Api
+   In this folder you will find endpoints, request methods, and sample payloads.
+
+6- JsonApp Setting
+   In Json app setting folder u will find DefaultConnection string
+
+7- Models
+   In models folder u will found student and course class.
+
+8- Test Api using Postman
+   In this folder u will find Screenshot of testing 
+
+9- HTML 
+   In these folder there are two file . one is html form and the other is scripts.js 
+   HTML is form for student and course and script link this with api database

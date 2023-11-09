@@ -1,0 +1,27 @@
+
+
+Courses 
+
+1-Get ALL Courses
+End Point : https://localhost:7096/api/Courses/GetAllCourses
+Request type GET
+
+2-Get Courses by CourseId
+End Point : https://localhost:7096/api/Courses/GetCourses/{id}
+Request type Get
+
+3- ADD Courses
+End Point : https://localhost:7096/api/Courses/AddCourses
+Request type Post
+
+4- Update Courses
+End Point : https://localhost:7096/api/ Courses/UpdateCourses/{id}
+Request type Put
+
+5- Delete Courses
+End Point : https://localhost:7096/api/Courses/DeleteCourses/{id}
+Request type Delete
+
+6- Most popular Course
+End Point : https://localhost:7096/api/Courses/most-popular-course
+Request type Get
